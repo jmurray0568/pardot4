@@ -1,0 +1,21 @@
+Package: paRdot
+Type: Package
+Title: An R client for the Pardot API
+Version: 0.3.0
+Authors@R: c(
+    person("Stuart", "Illson",, "stuart.illson@gmail.com", c("aut", "cre", "cph")),
+    person("Alexander", "Vlasblom",, "demgenman@outlook.com", c("aut", "cph"))
+    )
+Description: Provides an easy to use R wrapper around the Pardot API. A user may
+    buid queries or POST data to the Pardot API. Queries will be returned as an XML
+    object that can be navigated, or alternatively JSON returned as tbl_df data frame. 
+License: MIT + file LICENSE
+LazyData: TRUE
+Imports:
+    httr,
+    xml2,
+    XML,
+    jsonlite,
+    dplyr,
+    pryr
+RoxygenNote: 6.0.1
